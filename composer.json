@@ -1,0 +1,21 @@
+{
+    "name": "chenframe/promise",
+    "description": "the promise package of chenframe",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenxiansen",
+            "email": "1849132652@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "psr/container": ">=1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chenframe\\Promise\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
